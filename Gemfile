@@ -1,4 +1,5 @@
-gem "sinatra", :require => "sinatra/base"
+source :rubygems
+gem "sinatra"
 gem "json"
 gem "redis"
 gem "hiredis"
