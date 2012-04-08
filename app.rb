@@ -25,7 +25,7 @@
 # those of the authors and should not be interpreted as representing official
 # policies, either expressed or implied, of Salvatore Sanfilippo.
 
-require 'app_config'
+require settings.root . '/app_config'
 require 'page'
 require 'pbkdf2'
 require 'comments'
