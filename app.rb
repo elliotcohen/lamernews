@@ -26,9 +26,9 @@
 # policies, either expressed or implied, of Salvatore Sanfilippo.
 
 require './app_config'
-require 'page'
-require 'pbkdf2'
-require 'comments'
+require './page'
+require './pbkdf2'
+require './comments'
 
 #require 'rubygems'
 #require 'hiredis'
