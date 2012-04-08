@@ -1,10 +1,17 @@
 # General
 SiteName = "Hacking Medicine News"
-SiteUrl = "http://cold-mist-9816.heroku.com/"
+SiteUrl = "http://hackingmedicinenews.heroku.com/"
 
 # Redis config
 RedisHost = "127.0.0.1"
-RedisPort = 10000
+RedisPort = 6379
+RedisPW = nil
+configure :production do
+  uri = URI.parse(ENV["REDISTOGO_URL"])
+  RedisHost = uri.host
+  RedisPort = uri.port
+  RedisPW = uri.password
+end
 
 # Security
 PBKDF2Iterations = 1000 # Set this to 5000 to improve security. But it is slow.
