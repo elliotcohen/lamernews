@@ -4,4 +4,4 @@ require 'bundler'
 Bundler.require
 
 require './app'
-run LamerNews
+run Sinatra::Application
