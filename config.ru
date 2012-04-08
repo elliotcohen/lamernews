@@ -3,6 +3,5 @@ require 'bundler'
 
 Bundler.require
 
-require './lamernews'
-
+require './app'
 run LamerNews
