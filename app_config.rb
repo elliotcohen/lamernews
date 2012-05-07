@@ -61,3 +61,7 @@ FooterGoogleGroupLink = false
 
 # API
 APIMaxNewsCount = 32
+
+# Twitter
+TwitterConsumerKey	= "oIcvi0jpg0GXvPwmLuXjCg"
+TwitterConsumerSecret = "Jhaj53u63LsBzdeRzQgKO3tMabZCTVNkWzlQIfHyP28"
